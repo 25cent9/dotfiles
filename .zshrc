@@ -84,8 +84,6 @@ plugins=(
 	#zsh-completions
 	#ssh
 )
-# zinit plugins
-zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 #source $ZSH/oh-my-zsh.sh
 
@@ -148,3 +146,6 @@ fi
 source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
+
+# zinit plugins
+zinit light romkatv/powerlevel10k
