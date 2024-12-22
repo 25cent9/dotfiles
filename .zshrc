@@ -148,4 +148,8 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 # zinit plugins
+zinit light zsh-users/zsh-autosuggestions
 zinit light romkatv/powerlevel10k
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-completions
+zinit light unixorn/fzf-zsh-plugin
